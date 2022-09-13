@@ -25,6 +25,7 @@ body:
       label: Which panel/page has this issue?
       multiple: false
       options:
+        - Website
         - Client portal
         - Billing panel
         - Server panel
