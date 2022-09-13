@@ -1,0 +1,89 @@
+name: Issue report
+description: File an issue report.
+body:
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Issue occurs on,
+      description: Please select on which platforms and/or OS this issue occurs on.
+      multiple: true
+      options:
+        - Desktop
+        - Tablet
+        - Mobile
+        - Other device (Please mention in description.)
+        - Linux (Please mention the distribution and version in description.)
+        - Windows 10/11
+        - MacOS
+        - Other desktop OS (Please mention in description.)
+        - Android
+        - iOS
+        - Other mobile OS (Please mention in description.)
+  - type: dropdown
+    id: panel
+    attributes:
+      label: Which panel/page has this issue?
+      multiple: false
+      options:
+        - Client portal
+        - Billing panel
+        - Server panel
+        - Exotic server panel
+  - type: markdown
+    attributes:
+      value: >-
+        Please provide a clear and concise description of what the issue is.
+  - type: textarea
+    attributes:
+      label: Description
+      description: Please describe what issue you're facing.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected behavior
+      description: How it's supposed to work.
+      placeholder: It should do this...
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Actual behavior
+      description: How it's actually worked.
+      placeholder: It is doing this...
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to reproduce this bug/error
+      description: >-
+        You may include a video link, screenshots or detailed steps to reproduce
+        the bug/error.
+      placeholder: Abra-ka-dabra, produce BUG!
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Possible fix
+      description: Mention any possible fix you have on mind.
+      placeholder: Get good.
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: Path/location to problematic page
+      description: Path/location of page where this issue occurs.
+      placeholder: https://indionicpanel.in/server/your_server_id/some_feature
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Agreement
+      description: Please agree to the following.
+      options:
+        - label: I have checked for and confirmed there isn't already a similar issue opened.
+          required: true
+        - label: I have checked for and confirmed there isn't any browser addon/extension causing this issue.
+          required: true
+        - label: I have tested and confirmed the presense of this bug on latest version of my preferred browser application.
+          required: true
