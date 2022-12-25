@@ -1,4 +1,5 @@
-indionichost Bug Report Repository
+# Indionichost Bug Report Repository
+
 Welcome to the indionichost bug report repository! We appreciate your help in identifying and reporting issues with our service.
 
 How to Report a Bug
