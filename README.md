@@ -1,5 +1,7 @@
 # IndionicHost Bug Report Repository
 
+![Banner](https://github.com/IndionicHost/Bug-report/blob/main/img/IndionicHost_Banner.png)
+
 Welcome to the indionichost bug report repository! We appreciate your help in identifying and reporting issues with our service.
 
 ## How to Report a Bug
