@@ -23,7 +23,7 @@ body:
     id: panel
     attributes:
       label: Which panel/page has this issue?
-      multiple: false
+      multiple: true
       options:
         - Website
         - Client portal
