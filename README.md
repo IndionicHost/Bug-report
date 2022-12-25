@@ -5,7 +5,7 @@ Welcome to the indionichost bug report repository! We appreciate your help in id
 ## How to Report a Bug
 To report a bug, please follow these steps:
 
-Search the existing issues to see if the bug has already been reported. If it has, please add any additional information you have to the existing issue.
+1. Search the existing issues to see if the bug has already been reported. If it has, please add any additional information you have to the existing issue.
 
 If the bug has not been reported, create a new issue using the "Bug report" template. Please be as detailed as possible when describing the bug, including:
 
