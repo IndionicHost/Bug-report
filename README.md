@@ -2,7 +2,7 @@
 
 Welcome to the indionichost bug report repository! We appreciate your help in identifying and reporting issues with our service.
 
-How to Report a Bug
+## How to Report a Bug
 To report a bug, please follow these steps:
 
 Search the existing issues to see if the bug has already been reported. If it has, please add any additional information you have to the existing issue.
