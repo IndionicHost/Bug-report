@@ -7,7 +7,7 @@ To report a bug, please follow these steps:
 
 1. Search the existing issues to see if the bug has already been reported. If it has, please add any additional information you have to the existing issue.
 
-If the bug has not been reported, create a new issue using the "Bug report" template. Please be as detailed as possible when describing the bug, including:
+2. If the bug has not been reported, create a new issue using the "Bug report" template. Please be as detailed as possible when describing the bug, including:
 
 A clear and concise description of the problem
 Steps to reproduce the bug
